@@ -73,7 +73,7 @@ $openstack\
 $azure\
 $nats\
 $crystal\
-[](fg:green)\
+[ ](fg:green)\
 $cmd_duration\
 $fill\
 [](fg:lavender)\
