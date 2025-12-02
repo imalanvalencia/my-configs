@@ -95,6 +95,11 @@ symbol = ""
 style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
+[dotnet]
+symbol = "󰪮"
+style = "bg:green"
+format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+
 [buf]
 symbol = ""
 style = "bg:green"
@@ -257,7 +262,7 @@ style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
 [nodejs]
-symbol = ""
+symbol = ""
 style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
@@ -393,8 +398,7 @@ format = '[ $user]($style)'
 [directory]
 style = "bg:peach fg:crust"
 format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…"
+truncation_length = 2
 read_only = " 󰌾"
 
 [directory.substitutions]
